@@ -1,0 +1,21 @@
+//Write a program to take user input for name, age, and marks, and display them.
+#include <stdio.h> 
+
+int main() {
+    char name[50]; 
+    int age;    
+    float marks;   
+   
+    printf("Enter your name: ");
+    scanf("%s", name);     
+    printf("Enter your age: ");
+    scanf("%d", &age); 
+    printf("Enter your marks: ");
+    scanf("%f", &marks); 
+
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+    printf("Marks: %.2f\n", marks); 
+
+    return 0; 
+}
